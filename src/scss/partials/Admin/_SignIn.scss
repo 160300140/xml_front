@@ -1,0 +1,46 @@
+@import '../../../scss/index.scss';
+
+.form-group{
+    text-align: left;
+    color: $theme-font-color;
+
+    span{
+        color: $theme-font-color;
+    }
+
+}
+
+.text-muted {
+    font-size: 13px;
+    width: 300;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+    background-color: #17e7b3;
+    border-color: #1de9b6 !important;
+}
+
+.form-control{
+
+    &:valid {
+        background-color: #f4f7fa!important;
+    }
+
+    &:invalid {
+        background-color: #f4f7fa!important;
+    }
+
+    &::-webkit-input-placeholder {
+        font-size: 14px;
+        font-weight: 400;
+        font-family:  monospace, sans-serif;
+        color: $theme-font-color !important;
+        /* letter-spacing: .03rem; */
+    }
+
+}
+
+.card-img, .card-img-bottom, .card-img-top { height: 100%;}
+
+
+
