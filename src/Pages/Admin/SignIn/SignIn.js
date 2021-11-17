@@ -12,7 +12,9 @@ import axios from 'axios';
 /* Está es la url de aws*/
 /*const baseUrl = "http://ec2-18-189-16-61.us-east-2.compute.amazonaws.com:9001/SRM/User/";*/
 /* Está es la url de Local*/
-const baseUrlLocal = "http://localhost:9001/SRM/User/";
+//const baseUrlLocal = "http://localhost:9001/SRM/User/";
+const baseUrlLocal = "http://ec2-18-189-16-61.us-east-2.compute.amazonaws.com:9001/SRM/User/";
+
 
 
 class SignIn extends Component {
