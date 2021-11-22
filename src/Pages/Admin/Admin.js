@@ -1,6 +1,7 @@
 import React from 'react';
 import ModalDetails from '../../Components/modals/ModalDetails';
 import ModalOkCancel from '../../Components/modals/ModalOkCancel';
+import ModalAddClient from '../../Components/modals/ModalAddClient';
 /*
 const modaldetails = {
     colorBoton: "primary",
@@ -31,7 +32,10 @@ export default function Admin() {
         <ModalDetails options={modaldetails}/>
         <br/><br/>
         <ModalOkCancel options={modalopc}/>
+        <br/><br/>
+        <ModalAddClient/>
         */}
+        
         </>
 
     )
