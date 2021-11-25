@@ -55,12 +55,6 @@ export default function SearchComponent(props){
         valType: "text",
         valPlaceHolder: "Nombre"
     };
-    const valForm7 = {
-        valTitle: "Adicional:",
-        valName: "nameclient",
-        valType: "text",
-        valPlaceHolder: "Nombre"
-    };
     
     const [visible, setVisible] = useState(false);
     return(
@@ -91,11 +85,12 @@ export default function SearchComponent(props){
                 <Col>
                     <SearchForm options={valForm6}/>
                 </Col>
-                <Col>
+                <Col Style="display: flex;align-items: center;justify-content: center;">
                     <Button
                         type="primary"
                         onClick={() => setVisible(true)}
-                        className="modal-add-client__button">
+                        className="modal-add-client__button"
+                        >
                         Buscar
                     </Button>
                 </Col>
